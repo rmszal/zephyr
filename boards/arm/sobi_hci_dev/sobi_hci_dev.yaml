@@ -1,0 +1,22 @@
+identifier: sobi_hci_dev
+name: sobi_hci_dev
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 32
+supported:
+  - adc
+  - ble
+  - counter
+  - gpio
+  - i2c
+  - nvs
+  - pwm
+  - spi
+  - watchdog
+testing:
+  ignore_tags:
+    - net

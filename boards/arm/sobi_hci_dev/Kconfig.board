@@ -1,0 +1,8 @@
+# SoBi HCI DEV board configuration
+
+# Copyright (c) 2016 Linaro Limited.
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_SOBI_HCI_DEV
+	bool "SoBi HCI dev"
+	depends on SOC_NRF51822_QFAC

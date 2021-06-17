@@ -1,0 +1,14 @@
+# SoBi HCI DEV board configuration
+
+# Copyright (c) 2016 Linaro Limited.
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_SOBI_HCI_DEV
+
+config BOARD
+	default "sobi_hci_dev"
+
+config BT_CTLR
+	default BT
+
+endif
